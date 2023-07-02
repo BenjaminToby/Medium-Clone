@@ -1,7 +1,7 @@
 /**
  * Homepage React Functional Component
  * ===============================================================
- * @param {object?} props - Next JS server props: if available, it will contain the initial props passed by the server.
+ * @param {object?} props - Next JS server props: if available, it will contain the initial props passed by the server
  * @returns {import("react").ReactComponentElement}
  */
 export default function Home(props) {
