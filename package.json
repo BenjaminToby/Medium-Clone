@@ -1,0 +1,30 @@
+{
+    "name": "medium-clone",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx next dev -p 9387",
+        "build": "next build",
+        "start": "npx next start -p 9387",
+        "tailwind": "npx tailwindcss -i ./tailwind/source.css -o ./styles/tailwind.css --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@emotion/react": "^11.11.1",
+        "@emotion/server": "^11.11.0",
+        "@icon-park/react": "^1.4.2",
+        "@mantine/core": "^6.0.15",
+        "@mantine/hooks": "^6.0.15",
+        "@mantine/next": "^6.0.15",
+        "datasquirel": "^1.1.57",
+        "next": "^13.4.7",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.3.2"
+    }
+}
