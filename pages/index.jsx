@@ -8,7 +8,7 @@ export default function Home(props) {
     return (
         <div className="p-20">
             <h1>Welcome to Medium Clone</h1>
-            <span>Let's Begin</span>
+            <span>Let's Begin. The journey starts here. Like if you want me to continue and finish the project.</span>
         </div>
     );
 }
